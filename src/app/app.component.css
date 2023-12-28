@@ -1,0 +1,21 @@
+.logo1{
+   
+}
+.logo{
+    height: 50px;
+}
+ui5-shellbar::part(searchField) {
+    background-color: #ff0000; 
+  }
+  .bar1 ui5-shellbar::part(bar) {
+    background-color: #ff0000 !important; 
+  }
+  ui5-shellbar::part(bar) {
+    background-color: #ff0000 !important; 
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar{
+    background-color: #ff0000;
+  }

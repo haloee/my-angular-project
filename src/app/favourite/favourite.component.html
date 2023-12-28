@@ -1,0 +1,21 @@
+
+<div class="pokemon-grid">
+    <div class="pokemon-card" *ngFor="let pokemon of savedPokemonList">
+      <div class="pokemon-details">
+        <div class="pokemon-info">
+          <p>{{ pokemon.name }}</p>
+          <button mat-icon-button (click)="deletePokemon(pokemon)">
+            <mat-icon>delete</mat-icon>
+          </button>
+          
+        </div>
+        <div>
+          <p>{{ pokemon.types.join(', ') }}</p>
+        </div>
+        <div class="pokemon-image">
+          <img [src]="pokemon.artwork" alt="Pokémon Artwork">
+        </div>
+      </div>
+    </div>
+  </div>
+  
