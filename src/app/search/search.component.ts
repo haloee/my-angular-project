@@ -57,7 +57,7 @@ timer(2000).subscribe(()=>{
       },
       (error) => {
         
-        this.loading=false;
+        this.loading=false;//
       },
       ()=>{
 
